@@ -1,0 +1,55 @@
+/* @theme theme */
+
+@charset "UTF-8";
+@import 'gaia';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap');
+@import '~highlight.js/styles/sunburst';
+
+
+h1 {
+  border-bottom: ;
+  font-size:32pt;
+}
+
+
+  header {
+    left: ;
+    right: 50px;
+    top: ;
+    height: 50px;
+    background-image: ; 
+    background-position: right top;
+    background-repeat: repeat;
+    background-size: ;
+    text-align:left;
+    color: ;
+    font-weight: ;
+    font-size:;
+  }
+
+  footer {
+    left: ;
+    right: ;
+    top: ;
+    height: ;
+    background-image: ; 
+    background-position: right top;
+    background-repeat: repeat;
+    background-size: ;
+    text-align:left;
+    color: ;
+    font-weight: ;
+    font-size:;
+
+  }
+
+  section::before {
+    display: block;
+    content: url('https://marp.app/assets/marp.svg');
+    width: 150px;
+    height: auto;
+  
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
